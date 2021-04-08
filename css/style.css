@@ -1,0 +1,41 @@
+/* RESET */
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+/* END RESET */
+
+/* SLIDER */
+.container{
+    max-width: 800px;
+    margin: auto;
+}
+
+.slider{
+    display: flex;
+    align-items: center;
+    padding-top: 20px;
+}
+
+img{
+    width: 100%;
+    display: block;
+}
+
+.images{
+    padding: 0 20px;
+}
+.images img{
+    display: none;
+}
+
+.images img.active{
+    display: block;
+}
+
+.arrow{
+    font-size: 30px;
+    cursor: pointer;
+}
+/* END SLIDER */
